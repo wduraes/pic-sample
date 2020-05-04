@@ -15,7 +15,7 @@ Before proceeding, you should have the following ready:
 
 -   MPLAB code configurator (Once you finish the installation of the previous items, open MPLAB X IDE, then click Tools > Plugin Download > search for MPLAB code configurator and install it)
 
-![code-configurator](Images/code_configurator.png){ width=50% }   
+![code-configurator](Images/code_configurator.png)  
 
 # Sample Instructions
 
@@ -38,6 +38,8 @@ The device_ID on both IoT hub and the devie itself must match, so before creatin
 ![sensor node](Images/sensor_node.png)
 
 Create a new device on your IoT Hub using this device as your device name.
+
+![device_id](Images/device_id.png)  
 
 ## Update your credentials
 
@@ -74,4 +76,6 @@ HostName=**ps-demo-hub.azure-devices.net**;DeviceId=Pic_test_2;SharedAccessKey=P
 1. On your device window on Azure, click Direct Method
 2. On the direct method window, type blink on the Method Name, type {"duration":3}  on the payload, and click "Invoke method". 
 3. You should see the red LED turning on for 3 seconds and then turning back off again.
+
+![direct_method](Images/direct_mehtod.png)
 
