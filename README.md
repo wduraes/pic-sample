@@ -77,5 +77,5 @@ HostName=**ps-demo-hub.azure-devices.net**;DeviceId=Pic_test_2;SharedAccessKey=P
 2. On the direct method window, type blink on the Method Name, type {"duration":3}  on the payload, and click "Invoke method". 
 3. You should see the red LED turning on for 3 seconds and then turning back off again.
 
-![direct_method](Images/direct_mehtod.png)
+![direct_method](Images/direct_method.png)
 
