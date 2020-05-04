@@ -15,7 +15,7 @@ Before proceeding, you should have the following ready:
 
 -   MPLAB code configurator (Once you finish the installation of the previous items, open MPLAB X IDE, then click Tools > Plugin Download > search for MPLAB code configurator and install it)
 
-![code-configurator](Images/code_configurator.png)    
+![code-configurator](Images/code_configurator.png){ width=50% }   
 
 # Sample Instructions
 
