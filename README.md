@@ -15,7 +15,7 @@ Before proceeding, you should have the following ready:
 
 -   MPLAB code configurator (Once you finish the installation of the previous items, open MPLAB X IDE, then click Tools > Plugin Download > search for MPLAB code configurator and install it)
 
-![code-configurator](https://github.com/wduraes/pic-sample/blob/master/images/code_configurator.png)    https://github.com/wduraes/pic-sample/blob/master/https://github.com/wduraes/pic-sample/blob/master/images/conf_winc.png 
+![code-configurator](Images/code_configurator.png)    
 
 # Sample Instructions
 
