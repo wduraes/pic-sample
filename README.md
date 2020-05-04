@@ -33,7 +33,8 @@ The device_ID on both IoT hub and the devie itself must match, so before creatin
 
 - 	You can find the device_id on the IoT_Sensor_Node_config.h file. 
 -	To find it, on the left hand panel, look for Header files > platform > config > IoT_Sensor_Node_config.h
-- Line 39 shows the #define DEVICE_ID "your_device_number"
+- 	Line 39 shows the #define DEVICE_ID "your_device_number"
+- 	You can also change this Device_ID if you desire.
 
 ![sensor node](Images/sensor_node.png)
 
