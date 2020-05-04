@@ -15,7 +15,7 @@ Before proceeding, you should have the following ready:
 
 -   MPLAB code configurator (Once you finish the installation of the previous items, open MPLAB X IDE, then click Tools > Plugin Download > search for MPLAB code configurator and install it)
 
-![code-configurator](images/code_configurator.png)
+![code-configurator](https://github.com/wduraes/pic-sample/blob/master/images/code_configurator.png)    https://github.com/wduraes/pic-sample/blob/master/https://github.com/wduraes/pic-sample/blob/master/images/conf_winc.png 
 
 # Sample Instructions
 
@@ -25,7 +25,7 @@ Before proceeding, you should have the following ready:
 
 2. Open the project in MPLAB X: File > Open Project > [select the folder in which you just downloaded the files]. The MPLAB X project name is "myiot"
 
-![project](images/project.png)
+![project](https://github.com/wduraes/pic-sample/blob/master/images/project.png)
 
 ## Get the Device ID 
 
@@ -35,7 +35,7 @@ The device_ID on both IoT hub and the devie itself must match, so before creatin
 -	To find it, on the left hand panel, look for Header files > platform > config > IoT_Sensor_Node_config.h
 - Line 39 shows the #define DEVICE_ID "your_device_number"
 
-![sensor node](images/sensor_node.png)
+![sensor node](https://github.com/wduraes/pic-sample/blob/master/images/sensor_node.png)
 
 Create a new device on your IoT Hub using this device as your device name.
 
@@ -44,7 +44,7 @@ Create a new device on your IoT Hub using this device as your device name.
 1. Update the Wi-Fi credentials and security
 - On the left hand panel, look for Header files > platform > config > config_winc.h
 
-![winc](images/conf_winc.png) 
+![winc](https://github.com/wduraes/pic-sample/blob/master/images/conf_winc.png) 
 
 - Update your wi-fi SSID name: Line 25 shows #define CFG_MAIN_WLAN_SSID "your-ssid"
 - Update your wi-fi Password:  Line 42 shows #define CFG_MAIN_WLAN_PSK "your-ssid-password"
@@ -65,7 +65,7 @@ HostName=**ps-demo-hub.azure-devices.net**;DeviceId=Pic_test_2;SharedAccessKey=P
 
 1. Once you have all the credentials set, you can upload the code to your device, by clicking on debug project.
 
-![debug_button](images/debug_button.png)
+![debug_button](https://github.com/wduraes/pic-sample/blob/master/images/debug_button.png)
 
 2. If everything went well, you should see the onboard LEDs turning on. The blue and the green LEDs will be on all the time and the yellow one blinks every 5 seconds to confirm the telemetry has been sent to Azure.
 
